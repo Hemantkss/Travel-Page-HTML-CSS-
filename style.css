@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Inter", sans-serif;
+}
+
+.background{
+    background-image: url(images/img2.jpg);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*HEADER EDITS*/
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2% 5%;
+}
+
+
+/*logo edits*/
+
+.logo-section{
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+    cursor: pointer;
+
+}
+
+.logo{
+    height: 80px;
+    width: auto;
+}
+.logo-text{
+    color: rgb(85, 85, 23);
+    font-weight: 700;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+
+span{
+    color: rgb(0, 0, 0);
+}
+
+/*nav bar edits*/
+
+.list ul li{
+    display: inline-block;
+    padding-right: 2.5rem;
+}
+.list ul li a{
+    color: black;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    transition: 0.1s;
+}
+
+.list ul li a:hover{
+    transition: 0.1s;
+    color: red;
+    border-bottom: 2px solid black;
+}
+
+
+/* middle section edits */
+
+.hero-section{
+    margin: 0 32px;
+    padding: 0 12px;
+}
+.hero-content{
+    display: flex;
+    justify-content: center;
+}
+.hero-text{
+
+    padding-top: 15%;
+    text-align: center;
+}
+
+/*text edits*/
+
+p{
+    font-weight: 700;
+    text-transform: capitalize;
+    color: white;
+    letter-spacing: 2px;
+    margin-bottom: 1.8rem;
+}
+
+.main-text-content{
+    font-size: 3.5rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: white;
+    margin-bottom: 1.8rem;
+}
+
+
+/* button edits */
+
+
+.btn{
+    outline: none;
+    border: none;
+    padding: 16px 20px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 4px;
+    letter-spacing: 2px;
+    box-shadow: 5px 5px 8px 2px black;
+    transition: all 0.3s;
+}
+
+.btn:hover{
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    box-shadow: 5px 5px 8px 2px white;
+}
